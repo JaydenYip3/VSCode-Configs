@@ -1,1 +1,27 @@
-{}
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.suggest.enabled": true,
+
+  // Vim key repeat helpers
+  "vim.useCtrlKeys": true,
+  "keyboard.dispatch": "keyCode",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // ⬇️ Press SPACE in Normal mode to show hover (errors, types, docs)
+    { "before": ["<space>"], "commands": ["editor.action.showHover"] },
+
+    // Optional: uncomment if you also want SPACE then . to open Quick Fix
+    // { "before": ["<space>", "."], "commands": ["editor.action.quickFix"] }
+  ],
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "vim.relativeLineNumbers": true,
+  "editor.lineNumbers": "relative",
+  "vim.smartRelativeLine": true,
+  "geminicodeassist.displayInlineContextHint": false,
+  "vim.useSystemClipboard": true,
+}
