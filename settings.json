@@ -11,6 +11,7 @@
   "vim.useCtrlKeys": true,
   "keyboard.dispatch": "keyCode",
   "vim.normalModeKeyBindingsNonRecursive": [
+    { "before": ["<space>", "e"], "commands": ["workbench.view.explorer"] },
     { "before": ["<tab>"], "commands": ["workbench.action.nextEditor"] },
     { "before": ["<S-tab>"], "commands": ["workbench.action.previousEditor"] },
     // Optional: uncomment if you also want SPACE then . to open Quick Fix
