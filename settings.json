@@ -21,6 +21,9 @@
   "vim.relativeLineNumbers": true,
   "editor.lineNumbers": "relative",
   "vim.smartRelativeLine": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
+  "vim.highlightedyank.duration": 200,
   "geminicodeassist.displayInlineContextHint": false,
   "vim.useSystemClipboard": true,
 }
