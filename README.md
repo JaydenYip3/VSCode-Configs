@@ -2,7 +2,7 @@
 
 Simple reference for the VS Code config files in this repository.
 
-## Files
+## Files:
 
 ### `settings.json`
 Main VS Code preferences for editor behavior, formatting, Git, and Vim integration.
